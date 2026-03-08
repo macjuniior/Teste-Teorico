@@ -1,4 +1,5 @@
 # 📦 Desafio Técnico: API de Gerenciamento de Pedidos 
+
 Este repositório contém a solução para o desafio técnico de desenvolvimento de uma API RESTful utilizando Node.js e JavaScript. O objetivo principal é o gerenciamento de pedidos, incluindo a persistência de dados em um banco de dados e a transformação (mapping) de campos entre a requisição e o armazenamento.
 ---
 
@@ -6,8 +7,9 @@ Este repositório contém a solução para o desafio técnico de desenvolvimento
 Olá! Meu nome é Marcio. Sou um desenvolvedor em constante aprendizado, apaixonado por tecnologia e focado em construir soluções eficientes e bem estruturadas.
 Neste projeto, busquei aplicar as melhores práticas de organização de código, utilizando o padrão *MVC (Model-View-Controller)* para garantir que a aplicação seja escalável e de fácil manutenção.
 
-**LinkedIn:** [\[Link para seu perfil\]](https://www.linkedin.com/in/macvaljunior/)
-**GitHub:** [\[Seu perfil do GitHub\]](https://github.com/macjuniior)
+**LinkedIn:** [\[Link Marcio Valadares\]](https://www.linkedin.com/in/macvaljunior/)
+
+**GitHub:** [\[Seu perfil do GitHub Marcio Valadares\]](https://github.com/macjuniior)
 ---
 
 ## 🚀 Sobre o Projeto
@@ -29,6 +31,7 @@ O desafio consistia em criar uma API capaz de realizar operações de CRUD (Crea
 ---
 
 ## 📂 Estrutura de Pastas
+```
 ├── src/
 │   ├── config/      # Configuração de conexão com o Banco de Dados
 │   ├── controllers/ # Lógica de negócio e transformação de dados (Mapping)
@@ -36,7 +39,7 @@ O desafio consistia em criar uma API capaz de realizar operações de CRUD (Crea
 │   └── routes/      # Definição das rotas da API
 ├── server.js        # Ponto de entrada da aplicação
 └── package.json     # Dependências e scripts do projeto
-
+```
 
 ## ⚙️ Como Executar o Projeto
 
