@@ -1,6 +1,7 @@
 # 📦 Desafio Técnico: API de Gerenciamento de Pedidos 
 
 Este repositório contém a solução para o desafio técnico de desenvolvimento de uma API RESTful utilizando Node.js e JavaScript. O objetivo principal é o gerenciamento de pedidos, incluindo a persistência de dados em um banco de dados e a transformação (mapping) de campos entre a requisição e o armazenamento.
+
 ---
 
 ## 👨‍💻 Sobre Mim
@@ -10,6 +11,7 @@ Neste projeto, busquei aplicar as melhores práticas de organização de código
 **LinkedIn:** [\[Link Marcio Valadares\]](https://www.linkedin.com/in/macvaljunior/)
 
 **GitHub:** [\[Seu perfil do GitHub Marcio Valadares\]](https://github.com/macjuniior)
+
 ---
 
 ## 🚀 Sobre o Projeto
@@ -17,7 +19,7 @@ O desafio consistia em criar uma API capaz de realizar operações de CRUD (Crea
 
 ### Principais Funcionalidades:
 - **Criação de Pedidos:** Recebe dados brutos e realiza o mapeamento automático para o banco de dados.
-- **Consulta por ID:** Busca rápida de pedidos específicos usando o identificador orderId.
+- **Consulta por ID:** Busca rápida de pedidos específicos usando o identificador ```orderId```.
 - **Listagem Geral (Opcional):** Endpoint para visualizar todos os pedidos cadastrados.
 - **Atualização (Opcional):** Permite modificar dados de um pedido existente.
 - **Exclusão (Opcional):** Remove pedidos da base de dados.
@@ -55,18 +57,18 @@ git clone [link-do-seu-repositorio]
 npm install
 ```
 
-3. **Configurar o Banco de Dados:** Certifique-se de que o seu MongoDB está rodando localmente ou altere a string de conexão em server.js ou src/config/db.js.
+3. **Configurar o Banco de Dados:** Certifique-se de que o seu MongoDB está rodando localmente ou altere a string de conexão em ```server.js``` ou ```src/config/db.js```.
 
 4. **Iniciar o servidor:**
 ```
 npm start
 ```
 
-A API estará disponível em http://localhost:3000.
+A API estará disponível em ```http://localhost:3000```.
 
 ## 📍 Endpoints da API.
-### 1.  Criar Pedido (POST)
-* URL: /order
+1. **Criar Pedido (POST)**
+* URL: ```/order```
 * Payload (Exemplo):
 ```
 {
@@ -77,7 +79,11 @@ A API estará disponível em http://localhost:3000.
 }
 ```
 
-### 2. Buscar por Número do Pedido (GET)URL: /order/:orderId
-### 3. Listar Todos (GET)URL: /order/list
-### 4. Atualizar Pedido (PUT)URL: /order/:orderId
-### 5. Deletar Pedido (DELETE)URL: /order/:orderId
+2. **Buscar por Número do Pedido (GET)**
+* URL: ```/order/:orderId```
+3. **Listar Todos (GET)**
+* URL: ```/order/list```
+4. **Atualizar Pedido (PUT)**
+URL: ```/order/:orderId```
+5. **Deletar Pedido (DELETE)**
+* URL: ```/order/:orderId```
